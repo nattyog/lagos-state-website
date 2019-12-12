@@ -1,0 +1,214 @@
+body {
+  background-color:white;
+  font-family: 'Titillium Web', sans-serif;
+
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1,h2,h3 {
+  margin: 0;
+}
+
+#container {
+  background-color: white;
+  width: 797px;
+  margin-left: auto;
+  margin-right: auto;
+ ;
+}
+#content {
+  padding: 10px;
+}
+
+#nav{
+  width: 180px;
+  float: left;
+
+}
+
+
+#nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#nav .selected {
+  font-weight:bolder;
+}
+
+
+
+#header {
+  background-color: #000000;
+  color: ghostwhite;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+
+
+
+
+.main {
+  width:800px;
+  margin-left: 250px;
+}
+
+.sides{
+  display: flex;
+  width: 800px;
+  margin-left: 250px;
+}
+
+.side-left{
+  width: 50%;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-bottom:10px;
+  background-color: #f2f2f2;
+  text-align: center; 
+  border-radius: 5px;
+  padding-left: 5px;
+  border-spacing: 15px;
+  margin-right: 5px;
+}
+.side-right{
+  width: 50%;
+  margin-left: 5px;
+}
+
+
+
+#footer {
+  clear: both;
+  padding:5px;
+  background-color:99999999;
+  color: grey;
+  text-align: center;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  width: 800px;
+  margin-left: 250px;
+}
+
+.logo-2{
+  margin-top: 10px;
+  margin-left: 250px;
+  width: 800px;
+  border-radius: 5px;
+}
+
+
+ul#horizontal-list{
+   min-width: 700px;
+   list-style: none;
+   padding-top: 20px;
+}
+
+
+ul#horizontal-list li{
+  display: inline;
+}
+
+.logo{ 
+ width: 799px;
+ border-radius: 5px;
+ margin-top: 10px;
+}
+
+.banner-3{
+  margin-top:5px;
+  width:  500px;
+  border-radius: 5px
+}
+
+.banner-4{
+  width: 50px;
+  border: radius 50%;
+}
+
+#header .banner-4 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+ul#horizontal-list-2{
+  min-width: 800;
+  list-style: none;
+  padding-top: 30px;
+}
+
+ul#horizontal-list-2 li{
+  display: inline-block;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 10px;
+  flex: 0;
+  margin-bottom: 10px;
+}
+ .nat{
+   width: 400px;
+   margin: 0 auto;
+  
+ }
+
+.left{
+  position: relative;
+  display: inline;
+}
+.right{
+  position: relative;
+  display: inline;
+}
+
+
+.img-header{
+  text-align: center;
+}
+
+/* .king{ */
+  font-size: 15px;
+  line-height: 1.5;
+}
